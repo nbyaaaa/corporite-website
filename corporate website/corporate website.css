@@ -1,0 +1,171 @@
+/*  corporate website  */
+
+/* main body */
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0px;
+ 
+}
+
+/* navigation bar color */
+.topnav {
+  background-color: #8B623F;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  
+  
+}
+
+/* navigation bar box color */
+.topnav a {
+  float: left;
+  color: #F0ECB2;
+  text-align: center ;
+  line-height: 1.6;
+  text-decoration: none;
+  font-size: 14px;
+  width:20%;
+  height:45px;
+  display: inline-table;
+  
+  
+}
+
+/* hover color */
+.topnav a:hover {
+  background-color:#F0ECB2;
+  color: black;
+}
+
+/* Active link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+.banner {
+	height: 20px;
+	
+}
+
+/* description demi */
+.demi {
+  background-color: #F0ECB2;
+  color: brown;
+  padding: 20px;
+  text-align: justify ;
+  color: black;
+  font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+.hasil {
+  padding: 20px;
+  float: left;
+  text-align: justify ;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  overflow: auto;
+}
+
+/* tajuk */
+.tajuk {
+  background-color: #8B623F;
+  overflow: auto;
+  color: #F0ECB2;
+}
+
+/* harun */
+.harun {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* footer */
+.last {
+  background-color: #8B623F;
+  
+  color: #F0ECB2;
+  padding: 20px 20px  20px;
+  float: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  overflow: auto;
+}
+
+
+.aktiviti {
+  background-color: #F0ECB2;
+  color: #F0ECB2;
+  padding: 50px;
+  text-align: justify ;
+  color: black;
+  font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+.carta {
+  background-color: #F0ECB2;
+  text-align:center;
+  color: white;
+  padding: 50px;
+  text-align: center ;
+  color: black;
+  font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+
+.bil {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
